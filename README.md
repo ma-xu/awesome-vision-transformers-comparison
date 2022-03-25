@@ -21,7 +21,7 @@ A detailed comparsion of Recent Vision Transformers on ImageNet1k
 | PVTv2-B3 | SA | 224 | 45.2 | 6.9 | 83.2 | [code](https://github.com/whai362/PVT) |[2022 CVM](https://link.springer.com/article/10.1007/s41095-022-0274-8)|
 | PVTv2-B4 | SA | 224 | 62.6 | 10.1 | 83.6 |[code](https://github.com/whai362/PVT) |[2022 CVM](https://link.springer.com/article/10.1007/s41095-022-0274-8)|
 | PVTv2-B5 | SA | 224 | 82.0 | 11.8 | 83.8 |[code](https://github.com/whai362/PVT) |[2022 CVM](https://link.springer.com/article/10.1007/s41095-022-0274-8)|
-| MLP-Mixer-B/16 |MLP | 224 | 59 | 12.7 | 76.4 | [code](https://github.com/google-research/vision_transformer)| [2021 NIPS] |
+| MLP-Mixer-B/16 |MLP | 224 | 59 | 12.7 | 76.4 | [code](https://github.com/google-research/vision_transformer)| [2021 NIPS](https://arxiv.org/abs/2105.01601) |
 | ResMLP-S12 | MLP| 224 | 15 | 3 | 76.6 |[timm](https://github.com/rwightman/pytorch-image-models) | [2021 May arXiv](https://arxiv.org/pdf/2105.03404.pdf) |
 | ResMLP-S24 |MLP | 224 | 30 | 6 | 79.4 |[timm](https://github.com/rwightman/pytorch-image-models) |[2021 May arXiv](https://arxiv.org/pdf/2105.03404.pdf)  |
 | ResMLP-B24 |MLP | 224 | 116 | 23 | 81 |[timm](https://github.com/rwightman/pytorch-image-models) |[2021 May arXiv](https://arxiv.org/pdf/2105.03404.pdf)  |
