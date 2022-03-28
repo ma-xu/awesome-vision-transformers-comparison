@@ -35,7 +35,22 @@ A detailed comparsion of Recent Vision Transformers on ImageNet1k
 | PoolFormer-S36 | Pool | 224 | 31 | 5.2 | 81.4 | [code](https://github.com/sail-sg/poolformer) | [2022 CVPR](https://arxiv.org/abs/2111.11418) |
 | PoolFormer-M36 | Pool | 224 | 56 | 9.1 | 82.1 | [code](https://github.com/sail-sg/poolformer) | [2022 CVPR](https://arxiv.org/abs/2111.11418) |
 | PoolFormer-M48 | Pool | 224 | 73 | 11.9 | 82.5 | [code](https://github.com/sail-sg/poolformer) | [2022 CVPR](https://arxiv.org/abs/2111.11418) |
-| Swin-T | | 224 | 29 | 4.5 | 81.3|[code](https://github.com/microsoft/Swin-Transformer)  |[2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf) |
-| Swin-S| | 224 | 50|  8.7 | 83.0| [code](https://github.com/microsoft/Swin-Transformer) | [2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf)|
-| Swin-B| | 224 | 88|  15.4 | 83.5|[code](https://github.com/microsoft/Swin-Transformer)  |[2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf) |
-| Swin-B| | 384 | 88|  47.0 | 84.5| [code](https://github.com/microsoft/Swin-Transformer) |[2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf) |
+| Swin-T |SA | 224 | 29 | 4.5 | 81.3|[code](https://github.com/microsoft/Swin-Transformer)  |[2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf) |
+| Swin-S|SA | 224 | 50|  8.7 | 83.0| [code](https://github.com/microsoft/Swin-Transformer) | [2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf)|
+| Swin-B|SA | 224 | 88|  15.4 | 83.5|[code](https://github.com/microsoft/Swin-Transformer)  |[2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf) |
+| Swin-B| SA| 384 | 88|  47.0 | 84.5| [code](https://github.com/microsoft/Swin-Transformer) |[2021 ICCV](https://arxiv.org/pdf/2103.14030.pdf) |
+| ActiveMLP-xT|MLP | 224 | 15|  2.2 | 79.7| [code, x](https://github.com/microsoft/ActiveMLP) |[2022 Mar](https://arxiv.org/pdf/2203.06108.pdf) |
+| ActiveMLP-T|MLP | 224 | 27|  4.0 |82.0 | [code, x](https://github.com/microsoft/ActiveMLP) |[2022 Mar](https://arxiv.org/pdf/2203.06108.pdf) |
+| ActiveMLP-S|MLP | 224 |39 | 6.9  | 83.0| [code, x](https://github.com/microsoft/ActiveMLP) |[2022 Mar](https://arxiv.org/pdf/2203.06108.pdf) |
+| ActiveMLP-B|MLP | 224 | 52|   10.1| 83.5| [code, x](https://github.com/microsoft/ActiveMLP) |[2022 Mar](https://arxiv.org/pdf/2203.06108.pdf) |
+| ActiveMLP-L|MLP | 224 |76 |  12.3 |83.6 | [code, x](https://github.com/microsoft/ActiveMLP) |[2022 Mar](https://arxiv.org/pdf/2203.06108.pdf) |
+| VAN-Tiny|DW-Conv | 224 |4.1 |  0.9 |75.4 | [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
+| VAN-Small|DW-Conv | 224 | 13.9| 2.5  |81.1 | [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
+| VAN-Base|DW-Conv | 224 |26.6 |  5.0 |82.8 | [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
+| VAN-Large|DW-Conv | 224 | 44.8| 9.0  |83.9 | [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
+| VAN-Huge|DW-Conv | 224 | 60.3| 12.2  | 84.2| [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
+
+
+
+
+[comment]: <> (| Model|Trait | ImgSize | Param| Macs  | Top1| [code] |[2022 Feb]|)
