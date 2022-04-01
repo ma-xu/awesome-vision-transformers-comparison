@@ -49,8 +49,9 @@ A detailed comparsion of Recent Vision Transformers on ImageNet1k
 | VAN-Base|DW-Conv | 224 |26.6 |  5.0 |82.8 | [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
 | VAN-Large|DW-Conv | 224 | 44.8| 9.0  |83.9 | [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
 | VAN-Huge|DW-Conv | 224 | 60.3| 12.2  | 84.2| [code](https://github.com/Visual-Attention-Network) |[2022 Feb](https://arxiv.org/pdf/2202.09741.pdf) |
-
-
+| NesT-T|SA | 224 | 17| 5.8  | 81.5| [code](https://github.com/google-research/nested-transformer) |[2022 AAAI](https://arxiv.org/pdf/2105.12723.pdf)|
+| NesT-S|SA | 224 | 38| 10.4  | 83.3| [code](https://github.com/google-research/nested-transformer) |[2022 AAAI](https://arxiv.org/pdf/2105.12723.pdf)|
+| NesT-B|SA | 224 | 68| 17.9  | 83.8| [code](https://github.com/google-research/nested-transformer) |[2022 AAAI](https://arxiv.org/pdf/2105.12723.pdf)|
 
 
 [comment]: <> (| Model|Trait | ImgSize | Param| Macs  | Top1| [code] |[2022 Feb]|)
